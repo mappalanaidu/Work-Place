@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5384" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5384" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:58Z">
+      <class name="AppsTesting.Sample1">
+        <test-method status="PASS" signature="f1()[pri:0, instance:AppsTesting.Sample1@305fd85d]" name="f1" duration-ms="23" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- AppsTesting.Sample1 -->
+      <class name="AppsTesting.Sample4">
+        <test-method status="PASS" signature="f4()[pri:0, instance:AppsTesting.Sample4@11438d26]" name="f4" duration-ms="14" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AppsTesting.Sample4@11438d26]" name="afterMethod" is-config="true" duration-ms="3" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:AppsTesting.Sample4@11438d26]" name="afterClass" is-config="true" duration-ms="5" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- AppsTesting.Sample4 -->
+      <class name="AppsTesting.Sample2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:AppsTesting.Sample2@458c1321]" name="beforeClass" is-config="true" duration-ms="26" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:AppsTesting.Sample2@458c1321]" name="f" duration-ms="35" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AppsTesting.Sample2@458c1321]" name="afterMethod" is-config="true" duration-ms="9" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:AppsTesting.Sample2@458c1321]" name="f2" duration-ms="15" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AppsTesting.Sample2@458c1321]" name="afterMethod" is-config="true" duration-ms="6" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:AppsTesting.Sample2@458c1321]" name="afterClass" is-config="true" duration-ms="5" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AppsTesting.Sample2@458c1321]" name="afterTest" is-config="true" duration-ms="5002" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AppsTesting.Sample4@11438d26]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-10-05T06:46:58Z" finished-at="2018-10-05T06:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:AppsTesting.Sample2@458c1321]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-10-05T06:46:58Z" finished-at="2018-10-05T06:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:AppsTesting.Sample4@11438d26]" name="afterSuite" is-config="true" duration-ms="2" started-at="2018-10-05T06:46:58Z" finished-at="2018-10-05T06:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- AppsTesting.Sample2 -->
+      <class name="AppsTesting.Sample3">
+        <test-method status="PASS" signature="f3()[pri:0, instance:AppsTesting.Sample3@1877ab81]" name="f3" duration-ms="29" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+      </class> <!-- AppsTesting.Sample3 -->
+      <class name="AppsTesting.TestNGExecutionFlow">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:AppsTesting.TestNGExecutionFlow@4232c52b]" name="beforeSuite" is-config="true" duration-ms="38" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AppsTesting.TestNGExecutionFlow@4232c52b]" name="beforeTest" is-config="true" duration-ms="4" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:AppsTesting.TestNGExecutionFlow@4232c52b]" name="beforeClass" is-config="true" duration-ms="6" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AppsTesting.TestNGExecutionFlow@4232c52b]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:AppsTesting.TestNGExecutionFlow@4232c52b]" name="f" duration-ms="14" started-at="2018-10-05T06:46:53Z" finished-at="2018-10-05T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- AppsTesting.TestNGExecutionFlow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

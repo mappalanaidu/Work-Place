@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name="input1" value="45"/>
+ <parameter name="input2" value="55"/>
+     <classes>
+      <class name="AppsTesting.CalculatorAppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
