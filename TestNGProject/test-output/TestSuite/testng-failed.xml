@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <test thread-count="2" name="Test1(failed)" parallel="tests">
+    <parameter name="searchword" value="Kalam"/>
+    <classes>
+      <class name="ModuleDataDriven.DataDrivenTestUsingXML">
+        <methods>
+          <include name="launch"/>
+          <include name="search"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- ModuleDataDriven.DataDrivenTestUsingXML -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="2" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="ModuleDataDriven.DataDrivenTestUsingXML">
+        <methods>
+          <include name="launch"/>
+          <include name="search"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- ModuleDataDriven.DataDrivenTestUsingXML -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" name="Test3(failed)" parallel="tests">
+    <parameter name="searchword" value="Pather"/>
+    <classes>
+      <class name="ModuleDataDriven.DataDrivenTestUsingXML">
+        <methods>
+          <include name="launch"/>
+          <include name="search"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- ModuleDataDriven.DataDrivenTestUsingXML -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="2" name="Test2(failed)" parallel="tests">
+    <parameter name="searchword" value="Mother"/>
+    <classes>
+      <class name="ModuleDataDriven.DataDrivenTestUsingXML">
+        <methods>
+          <include name="launch"/>
+          <include name="search"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- ModuleDataDriven.DataDrivenTestUsingXML -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

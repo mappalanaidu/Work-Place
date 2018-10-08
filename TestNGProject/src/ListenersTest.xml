@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+   <parameter name="browser" value="chrome"/>
+   <parameter name="searchword" value="Mother"/>
+    <classes>
+      <class name="ModuleDataDriven.ListenersTestClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

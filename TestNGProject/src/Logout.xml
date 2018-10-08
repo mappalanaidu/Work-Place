@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite3" parallel="tests">
+  <test name="Test">
+  <parameter name="browser" value="chrome"/>
+ <parameter name="username" value="9948838954"/>
+ <parameter name="password" value="bhagya530"/>
+  <parameter name="criteria" value="all_valid"/>
+      <classes>
+      <class name="Way2SMSModule.LogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="27" passed="25">
+  <reporter-output>
+    <line>
+      <![CDATA[<img src="file:///C:\Users\Naidu\TestingWorkSpace\TestNGProject\27-09-18-57-47.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file:///C:\Users\Naidu\TestingWorkSpace\TestNGProject\27-09-18-59-18.png" alt=""/>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite4" duration-ms="75649" started-at="2018-09-27T11:28:04Z" finished-at="2018-09-27T11:29:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="75649" started-at="2018-09-27T11:28:04Z" finished-at="2018-09-27T11:29:19Z">
+      <class name="Way2SMSModule.LanguageSMSTest">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:Way2SMSModule.LanguageSMSTest@31a5c39e]" name="launch" duration-ms="8854" started-at="2018-09-27T11:28:04Z" finished-at="2018-09-27T11:28:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Way2SMSModule.LanguageSMSTest@31a5c39e]" name="login" duration-ms="3361" started-at="2018-09-27T11:28:13Z" depends-on-methods="Way2SMSModule.LoginPageTesting.launch" finished-at="2018-09-27T11:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9948838954]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhagya530]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[all_valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="languageSelectMessage(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Way2SMSModule.LanguageSMSTest@31a5c39e]" name="languageSelectMessage" duration-ms="62112" started-at="2018-09-27T11:28:16Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:29:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9110768916]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hi naidu how r u, Bye.........]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sent_sms]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Way2SMS Login Test was Interrupted expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Way2SMS Login Test was Interrupted expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at Way2SMSModule.LanguageSMSTest.languageSelectMessage(LanguageSMSTest.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="file:///C:\Users\Naidu\TestingWorkSpace\TestNGProject\27-09-18-59-18.png" alt=""/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- languageSelectMessage -->
+        <test-method status="PASS" signature="close()[pri:3, instance:Way2SMSModule.LanguageSMSTest@31a5c39e]" name="close" duration-ms="1299" started-at="2018-09-27T11:29:18Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Way2SMSModule.LanguageSMSTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite4 -->
+  <suite name="MainSuite" duration-ms="0" started-at="2018-09-27T11:29:21Z" finished-at="2018-09-27T11:29:21Z">
+    <groups>
+    </groups>
+  </suite> <!-- MainSuite -->
+  <suite name="Suite1" duration-ms="43944" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:40Z">
+    <groups>
+    </groups>
+    <test name="Test4" duration-ms="35308" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:32Z">
+      <class name="Way2SMSModule.LoginPageTesting">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:Way2SMSModule.LoginPageTesting@77cd7a0]" name="launch" duration-ms="32512" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Way2SMSModule.LoginPageTesting@77cd7a0]" name="login" duration-ms="1244" started-at="2018-09-27T11:26:29Z" depends-on-methods="Way2SMSModule.LoginPageTesting.launch" finished-at="2018-09-27T11:26:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9948838954]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pwd_blank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:3, instance:Way2SMSModule.LoginPageTesting@77cd7a0]" name="close" duration-ms="1366" started-at="2018-09-27T11:26:30Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Way2SMSModule.LoginPageTesting -->
+    </test> <!-- Test4 -->
+    <test name="Test3" duration-ms="40415" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:37Z">
+      <class name="Way2SMSModule.LoginPageTesting">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:Way2SMSModule.LoginPageTesting@42e26948]" name="launch" duration-ms="36779" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Way2SMSModule.LoginPageTesting@42e26948]" name="login" duration-ms="1311" started-at="2018-09-27T11:26:33Z" depends-on-methods="Way2SMSModule.LoginPageTesting.launch" finished-at="2018-09-27T11:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8468845565]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhagya530]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mbno_invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:3, instance:Way2SMSModule.LoginPageTesting@42e26948]" name="close" duration-ms="2142" started-at="2018-09-27T11:26:35Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Way2SMSModule.LoginPageTesting -->
+    </test> <!-- Test3 -->
+    <test name="Test2" duration-ms="41331" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:38Z">
+      <class name="Way2SMSModule.LoginPageTesting">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:Way2SMSModule.LoginPageTesting@7cd62f43]" name="launch" duration-ms="38646" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Way2SMSModule.LoginPageTesting@7cd62f43]" name="login" duration-ms="1323" started-at="2018-09-27T11:26:35Z" depends-on-methods="Way2SMSModule.LoginPageTesting.launch" finished-at="2018-09-27T11:26:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhagya530]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mbno_blank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:3, instance:Way2SMSModule.LoginPageTesting@7cd62f43]" name="close" duration-ms="1185" started-at="2018-09-27T11:26:36Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Way2SMSModule.LoginPageTesting -->
+    </test> <!-- Test2 -->
+    <test name="Test5" duration-ms="41907" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:38Z">
+      <class name="Way2SMSModule.LoginPageTesting">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:Way2SMSModule.LoginPageTesting@f6c48ac]" name="launch" duration-ms="39002" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Way2SMSModule.LoginPageTesting@f6c48ac]" name="login" duration-ms="1404" started-at="2018-09-27T11:26:35Z" depends-on-methods="Way2SMSModule.LoginPageTesting.launch" finished-at="2018-09-27T11:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9948838954]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhagya53]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pwd_invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:3, instance:Way2SMSModule.LoginPageTesting@f6c48ac]" name="close" duration-ms="1326" started-at="2018-09-27T11:26:37Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Way2SMSModule.LoginPageTesting -->
+    </test> <!-- Test5 -->
+    <test name="Test1" duration-ms="43941" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:40Z">
+      <class name="Way2SMSModule.LoginPageTesting">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:Way2SMSModule.LoginPageTesting@c038203]" name="launch" duration-ms="38953" started-at="2018-09-27T11:25:56Z" finished-at="2018-09-27T11:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Way2SMSModule.LoginPageTesting@c038203]" name="login" duration-ms="3835" started-at="2018-09-27T11:26:35Z" depends-on-methods="Way2SMSModule.LoginPageTesting.launch" finished-at="2018-09-27T11:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9948838954]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhagya530]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[all_valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:3, instance:Way2SMSModule.LoginPageTesting@c038203]" name="close" duration-ms="972" started-at="2018-09-27T11:26:39Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Way2SMSModule.LoginPageTesting -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+  <suite name="Suite2" duration-ms="68342" started-at="2018-09-27T11:26:40Z" finished-at="2018-09-27T11:27:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68342" started-at="2018-09-27T11:26:40Z" finished-at="2018-09-27T11:27:49Z">
+      <class name="Way2SMSModule.SendSMSTest">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:Way2SMSModule.SendSMSTest@5f341870]" name="launch" duration-ms="8586" started-at="2018-09-27T11:26:40Z" finished-at="2018-09-27T11:26:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Way2SMSModule.SendSMSTest@5f341870]" name="login" duration-ms="3941" started-at="2018-09-27T11:26:49Z" depends-on-methods="Way2SMSModule.LoginPageTesting.launch" finished-at="2018-09-27T11:26:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9948838954]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhagya530]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[all_valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="sendMessage(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Way2SMSModule.SendSMSTest@5f341870]" name="sendMessage" duration-ms="54775" started-at="2018-09-27T11:26:53Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:27:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9110768916]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hi naidu how r u, Bye.........]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sent_sms]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Way2SMS Login Test was Interrupted expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Way2SMS Login Test was Interrupted expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at Way2SMSModule.SendSMSTest.sendMessage(SendSMSTest.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="file:///C:\Users\Naidu\TestingWorkSpace\TestNGProject\27-09-18-57-47.png" alt=""/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMessage -->
+        <test-method status="PASS" signature="close()[pri:3, instance:Way2SMSModule.SendSMSTest@5f341870]" name="close" duration-ms="1013" started-at="2018-09-27T11:27:48Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Way2SMSModule.SendSMSTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite2 -->
+  <suite name="Suite3" duration-ms="15089" started-at="2018-09-27T11:27:49Z" finished-at="2018-09-27T11:28:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15089" started-at="2018-09-27T11:27:49Z" finished-at="2018-09-27T11:28:04Z">
+      <class name="Way2SMSModule.LogoutTest">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:Way2SMSModule.LogoutTest@2f686d1f]" name="launch" duration-ms="8632" started-at="2018-09-27T11:27:49Z" finished-at="2018-09-27T11:27:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Way2SMSModule.LogoutTest@2f686d1f]" name="login" duration-ms="3729" started-at="2018-09-27T11:27:57Z" depends-on-methods="Way2SMSModule.LoginPageTesting.launch" finished-at="2018-09-27T11:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9948838954]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhagya530]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[all_valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:2, instance:Way2SMSModule.LogoutTest@2f686d1f]" name="logout" duration-ms="1758" started-at="2018-09-27T11:28:01Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="close()[pri:3, instance:Way2SMSModule.LogoutTest@2f686d1f]" name="close" duration-ms="947" started-at="2018-09-27T11:28:03Z" depends-on-methods="Way2SMSModule.LoginPageTesting.login" finished-at="2018-09-27T11:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Way2SMSModule.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite3 -->
+</testng-results>

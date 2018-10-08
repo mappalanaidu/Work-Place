@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Practice Grouping">
+ 
+      <groups>
+ 
+         <define name="All">
+ 
+	   		 <include name="Car"/>
+ 
+	   		 <include name="Scooter"/>
+ 
+		 </define>
+ 
+	 	<run>
+ 
+	   		 <include name="All"/>
+ 
+		</run>
+ 
+   	 </groups>
+ 
+	<classes>
+ 
+	    <class name="ModuleDataDriven.Grouping"/>
+ 
+	</classes>
+ 
+    </test>
+ 
+</suite>

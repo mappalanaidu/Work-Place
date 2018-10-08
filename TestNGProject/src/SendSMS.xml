@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite2" parallel="tests">
+  <test name="Test">
+<parameter name="browser" value="chrome"/>
+ <parameter name="username" value="9948838954"/>
+ <parameter name="password" value="bhagya530"/>
+ <parameter name="criteria" value="all_valid"/>-->
+   <parameter name="mobileno" value="9110768916"/>
+ <parameter name="msgbody" value="Hi naidu how r u, Bye........."/>
+ <parameter name="criteria2" value="sent_sms"/>
+      <classes>
+      <class name="Way2SMSModule.SendSMSTest"/>
+    </classes>
+   </test>
+  
+</suite> <!-- Suite -->

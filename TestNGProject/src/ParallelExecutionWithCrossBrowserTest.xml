@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuite" parallel="tests" thread-count="3" >
+  <test name="Test1">
+  <parameter name="browser" value="firefox"/>
+ <parameter name="searchword" value="Kalam"/>
+    <classes>
+	<class name="ModuleDataDriven.ParallelExecutionWithCrossBrowserTest"/> 
+  </classes>
+  </test> 
+  
+  <test name="Test2">
+   <parameter name="browser" value="chrome"/>
+   <parameter name="searchword" value="Mother"/>
+    <classes>
+	<class name="ModuleDataDriven.ParallelExecutionWithCrossBrowserTest"/>
+   </classes>
+  </test> 
+  
+  <test name="Test3">
+  <parameter name="browser" value="opera"/>
+ <parameter name="searchword" value="Father"/>
+    <classes>
+     <class name="ModuleDataDriven.ParallelExecutionWithCrossBrowserTest"/>
+   </classes>
+  </test> 
+ 
+</suite>

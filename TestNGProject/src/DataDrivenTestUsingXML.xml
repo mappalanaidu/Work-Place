@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" thread-count="3" parallel="tests" >
+  <test name="Test1">
+  <parameter name="searchword" value="Kalam"/>
+    <classes>
+      <class name="ModuleDataDriven.DataDrivenTestUsingXML"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+  <parameter name="searchword" value="Mother"/>
+    <classes>
+      <class name="ModuleDataDriven.DataDrivenTestUsingXML"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test3">
+  <parameter name="searchword" value="Father"/>
+    <classes>
+      <class name="ModuleDataDriven.DataDrivenTestUsingXML"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->

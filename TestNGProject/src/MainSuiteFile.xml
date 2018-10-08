@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MainSuite" parallel="tests">
+     
+      <suite-files>
+       <suite-file path="LoginPage.xml" /> 
+      <suite-file path="SendSMS.xml" />
+        <suite-file path="Logout.xml" />
+        <suite-file path="LanguageSMS.xml" />
+      </suite-files>
+
+</suite> <!-- Suite -->
