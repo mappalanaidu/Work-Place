@@ -1,0 +1,6 @@
+bname=
+deviceName=HNB0ZC4E
+platformName=android
+platformVersion=6.0
+appPackage=com.google.android.calculator
+appActivity=com.android.calculator2.Calculator
